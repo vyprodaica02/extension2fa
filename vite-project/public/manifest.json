@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "2fa",
+  "version": "1.0",
+  "icons": {
+    "48": "img/2fa.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "./img/2fa.png"
+  },
+
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"]
+}
